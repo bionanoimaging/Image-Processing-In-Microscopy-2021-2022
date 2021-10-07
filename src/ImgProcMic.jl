@@ -25,7 +25,7 @@ Works within Jupyter and Pluto.
 * `set_one=false` divides by the maximum to set maximum to 1
 * `set_zero=false` subtracts the minimum to set minimum to 1
 """
-function gray_show(arr; set_one=false, set_zero=false)
+function gray_show(arr; set_one=true, set_zero=false)
     arr = set_zero ? arr .- minimum(arr) : arr
     arr = set_one ? arr ./ maximum(arr) : arr
     Gray.(arr)
