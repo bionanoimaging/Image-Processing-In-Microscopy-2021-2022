@@ -5,6 +5,19 @@ Course material for "Image Processing in Microscopy" at the Friedrich Schiller U
 ## Course Registration
 Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=187964&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung).
 
+## Overview
+
+### Seminars
+* 15.10.21: Seminar 01
+     * [examples/seminars/S01.jl](examples/seminars/S01.jl)
+
+
+### Homework
+* 15.10.21: Homework 01
+     * [examples/homeworks/H01.jl](examples/homeworks/H01.jl)
+     * submit `H01.jl` on Moodle until: 27.10.21 @ 1PM 
+
+
 
 ## Julia Installation
 Download the recent version TBA on the [Julia Website](https://julialang.org/downloads/).
