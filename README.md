@@ -14,7 +14,7 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
 
 ### Homework
 * 15.10.21: Homework 01
-     * [examples/homeworks/H01.jl](examples/homeworks/H01.jl)
+     * [examples/homeworks/HW01.jl](examples/homeworks/HW01.jl)
      * submit `H01.jl` on Moodle until: 27.10.21 @ 1PM 
 
 
