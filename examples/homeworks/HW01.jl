@@ -15,8 +15,9 @@ end
 
 # ╔═╡ 56807afc-164e-11ec-2cf4-354654176242
 begin
-	using Pkg, Revise
+	using Pkg
 	Pkg.activate("../../")
+	using Revise
 end
 
 # ╔═╡ 8a11c2b7-b6e5-4c26-9e06-ad3ab958db9c
