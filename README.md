@@ -25,6 +25,10 @@ git clone git@github.com:bionanoimaging/Image-Processing-In-Microscopy.git
 ### Julia Installation
 Download the recent version TBA on the [Julia Website](https://julialang.org/downloads/).
 We recommend using [Visual Studio Code](https://www.julia-vscode.org/), especially install the Julia plugin for VSCode.
+
+
+### Activate Environment
+Open the downloaded source folder with VSCode.
 In the top right of VSCode there should be three dots (...). Try to click `Julia: Activate Parent Environment`.
 At the bottom, a Julia REPL should open.
 Try to type:
