@@ -36,7 +36,7 @@ md"# Homework 01"
 
 # ╔═╡ 334ebdc5-dc11-4e83-ad12-a1961420a97b
 begin
-	img = Float64.(testimage("maduril_gray"))
+	img = Float64.(testimage("mandril_gray"))
 	gray_show(img)
 end
 
