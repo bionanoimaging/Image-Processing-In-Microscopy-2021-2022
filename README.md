@@ -23,9 +23,9 @@ git clone git@github.com:bionanoimaging/Image-Processing-In-Microscopy.git
 ```
 
 ### Julia Installation
-Download the recent version TBA on the [Julia Website](https://julialang.org/downloads/).
+Download the recent version 1.6.3 on the [Julia Website](https://julialang.org/downloads/).
 We recommend using [Visual Studio Code](https://www.julia-vscode.org/), especially install the Julia plugin for VSCode.
-
+Also check out the [documentation](https://docs.julialang.org/en/v1/manual/performance-tips/). It is the best resource for julia because many other pages are outdated.
 
 ### Activate Environment
 Open the downloaded source folder with VSCode.
@@ -35,7 +35,7 @@ Try to type:
 ```julia
 julia> ] st
 ```
-which should result in similar output
+which should result in similar output:
 ```julia
 (ImgProcMic) pkg> st
      Project ImgProcMic v0.1.0
@@ -54,7 +54,7 @@ which should result in similar output
   [5e47fb64] TestImages v1.6.1
   [8dfed614] Test
 ```
-
+(If not, the following steps will obviously fail).
 Try to instantiate the packages with:
 ```julia
 (ImgProcMic) pkg> instantiate
