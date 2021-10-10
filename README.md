@@ -1,34 +1,41 @@
 # Image-Processing-In-Microscopy
 Course material for "Image Processing in Microscopy" at the Friedrich Schiller University in Jena in the winter term 2021/22
 
+## Organisation
 
-## Course Registration
+### Course Registration
 Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=187964&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung).
 
-## Overview
-
 ### Seminars
-* 15.10.21: Seminar 01
+* 15.10.21: Seminar 01 about the basics of Julia and how to use it
      * [examples/seminars/S01.jl](examples/seminars/S01.jl)
 
 
 ### Homework
-* 15.10.21: Homework 01
-     * [examples/homeworks/H01.jl](examples/homeworks/H01.jl)
-     * submit `H01.jl` on Moodle until: 27.10.21 @ 1PM 
+* 15.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
+     * [examples/homeworks/HW01.jl](examples/homeworks/HW01.jl)
+     * submit `HW01.jl` on Moodle until: Wednesday 27.10.21 @ 1PM 
 
+## Code
+To download the files, we recommend `git`:
+```
+git clone git@github.com:bionanoimaging/Image-Processing-In-Microscopy.git
+```
 
+### Julia Installation
+Download the recent version 1.6.3 on the [Julia Website](https://julialang.org/downloads/).
+We recommend using [Visual Studio Code](https://www.julia-vscode.org/), especially install the Julia plugin for VSCode.
+Also check out the [documentation](https://docs.julialang.org/en/v1/manual/performance-tips/). It is the best resource for julia because many other pages are outdated.
 
-## Julia Installation
-Download the recent version TBA on the [Julia Website](https://julialang.org/downloads/).
-We recommend using [Visual Studio Code](https://www.julia-vscode.org/).
-In the top right of VScode there should be three dots (...). Try to click `Julia: Activate Parent Environment`.
+### Activate Environment
+Open the downloaded source folder with VSCode.
+In the top right of VSCode there should be three dots (...). Try to click `Julia: Activate Parent Environment`.
 At the bottom, a Julia REPL should open.
 Try to type:
 ```julia
 julia> ] st
 ```
-which should result in similar output
+which should result in similar output:
 ```julia
 (ImgProcMic) pkg> st
      Project ImgProcMic v0.1.0
@@ -47,7 +54,7 @@ which should result in similar output
   [5e47fb64] TestImages v1.6.1
   [8dfed614] Test
 ```
-
+(If not, the following steps will obviously fail).
 Try to instantiate the packages with:
 ```julia
 (ImgProcMic) pkg> instantiate
