@@ -65,8 +65,11 @@ This function adds normal distributed noise to `img`.
 `σ` is an optional argument
 """
 function add_gauss_noise(img, σ=one(img))
-	return nothing
+	return similar(img)
 end
+
+# ╔═╡ a4ffa72c-9896-48f8-aaac-f653e30d6244
+1+1
 
 # ╔═╡ f89bc1e4-d406-4550-988b-71496b64035a
 md"
@@ -243,7 +246,7 @@ imfilter
 # ╔═╡ 6acf7ba6-445d-4ac0-a83f-6916318c783c
 function gaussian_noise_remove(arr; kernel_size=(3,3), σ=1)
 	# 
-	return nothing
+	return similar(arr)
 end
 
 # ╔═╡ 4f683117-9a09-4837-b0af-5818ac2e62fd
@@ -328,6 +331,7 @@ gray_show([median_noise_remove!(copy(img_g)) median_noise_remove!(copy(img_p)) m
 # ╠═2122c12f-0832-4f19-9a77-3047d5311cba
 # ╠═a7d7a415-7464-43fb-a2bf-8e3f2d999c32
 # ╠═de104b0a-28a4-42de-ae8d-fa857a8f32e0
+# ╠═a4ffa72c-9896-48f8-aaac-f653e30d6244
 # ╠═f89bc1e4-d406-4550-988b-71496b64035a
 # ╠═c0b5ff08-7342-4c25-9791-be3a4918c400
 # ╠═d56bc500-f5cf-40f3-8c0b-b4ae26a58367
