@@ -7,14 +7,14 @@ Course material for "Image Processing in Microscopy" at the Friedrich Schiller U
 Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=187964&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung).
 
 ### Seminars
-* 15.10.21: Seminar 01 about the basics of Julia and how to use it
+* 22.10.21: Seminar 01 about the basics of Julia and how to use it
      * [examples/seminars/S01.jl](examples/seminars/S01.jl)
 
 
 ### Homework
-* 15.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
+* 22.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
      * [examples/homeworks/HW01.jl](examples/homeworks/HW01.jl)
-     * submit `HW01.jl` on Moodle until: Wednesday 27.10.21 @ 1PM 
+     * submit `HW01.jl` on Moodle until: Wednesday 3.11.21 @ 1PM
 
 ## Code
 To download the files, we recommend `git`:
