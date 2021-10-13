@@ -10,7 +10,6 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
 * 22.10.21: Seminar 01 about the basics of Julia and how to use it
      * [examples/seminars/S01.jl](examples/seminars/S01.jl)
 
-
 ### Homework
 * 22.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
      * [examples/homeworks/HW01.jl](examples/homeworks/HW01.jl)
