@@ -17,7 +17,7 @@ function complex_show(cpx::AbstractArray{<:Complex, N}) where N
 end
 
 """
-    complex_show(arr; set_one=false, set_zero=false)
+    gray_show(arr; set_one=false, set_zero=false)
 Displays a real gray color array. Brightness encodes magnitude.
 Works within Jupyter and Pluto.
 
