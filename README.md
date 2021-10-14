@@ -2,6 +2,7 @@
 Course material for "Image Processing in Microscopy" at the Friedrich Schiller University in Jena in the winter term 2021/22
 
 ## Organisation
+See [Moodle](https://moodle.uni-jena.de/course/view.php?id=19441) for more details about the course itself.
 
 ### Course Registration
 Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=187964&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung).
