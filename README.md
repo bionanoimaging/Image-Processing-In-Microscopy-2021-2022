@@ -24,8 +24,15 @@ git clone git@github.com:bionanoimaging/Image-Processing-In-Microscopy.git
 
 ### Julia Installation
 Download the recent version 1.6.3 on the [Julia Website](https://julialang.org/downloads/).
+
+#### Editor
 We recommend using [Visual Studio Code](https://www.julia-vscode.org/), especially install the Julia plugin for VSCode.
+
+#### Documentation 
 Also check out the [documentation](https://docs.julialang.org/en/v1/manual/performance-tips/). It is the best resource for julia because many other pages are outdated.
+
+##### Cheatsheet
+There is a [Cheatsheet](https://juliadocs.github.io/Julia-Cheat-Sheet/) available.
 
 ### Activate Environment
 Open the downloaded source folder with VSCode.
