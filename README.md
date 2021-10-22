@@ -26,7 +26,7 @@ git clone git@github.com:bionanoimaging/Image-Processing-In-Microscopy.git
 Download the recent version 1.6.3 on the [Julia Website](https://julialang.org/downloads/).
 
 #### Editor
-We recommend using [Visual Studio Code](https://www.julia-vscode.org/), especially install the Julia plugin for VSCode.
+We recommend using [Visual Studio Code](https://www.julia-vscode.org/), especially install the Julia and git plugin for VSCode.
 
 #### Documentation 
 Also check out the [documentation](https://docs.julialang.org/en/v1/manual/performance-tips/). It is the best resource for julia because many other pages are outdated.
@@ -35,14 +35,14 @@ Also check out the [documentation](https://docs.julialang.org/en/v1/manual/perfo
 There is a [Cheatsheet](https://juliadocs.github.io/Julia-Cheat-Sheet/) available.
 
 ### Activate Environment
-Open the downloaded source folder with VSCode.
-In the top right of VSCode there should be three dots (...). Try to click `Julia: Activate Parent Environment`.
+Open the downloaded source folder with VSCode. Open the file `src/ImgProcMic.jl`.
+In the top right of VSCode there should be now three dots (...). Try to click `Julia: Activate Parent Environment`.
 At the bottom, a Julia REPL should open.
 Try to type:
 ```julia
 julia> ] st
 ```
-which should result in similar output:
+which should result in similar output. (The `]` switches Julia to the package manager mode. By deleting you go back to normal terminal).
 ```julia
 (ImgProcMic) pkg> st
      Project ImgProcMic v0.1.0
@@ -64,7 +64,9 @@ which should result in similar output:
 (If not, the following steps will obviously fail).
 Try to instantiate the packages with:
 ```julia
-(ImgProcMic) pkg> instantiate
+(ImgProcMic) julia> ] add PlutoTest
+
+(ImgProcMic) julia> ] instantiate
 ```
 Once you did that, go back to the normal REPL by pressing the `backspace` key:
 ```julia
