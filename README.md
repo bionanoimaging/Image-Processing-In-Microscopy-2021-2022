@@ -2,19 +2,19 @@
 Course material for "Image Processing in Microscopy" at the Friedrich Schiller University in Jena in the winter term 2021/22
 
 ## Organisation
+See [Moodle](https://moodle.uni-jena.de/course/view.php?id=19441) for more details about the course itself.
 
 ### Course Registration
 Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=187964&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung).
 
 ### Seminars
-* 15.10.21: Seminar 01 about the basics of Julia and how to use it
+* 22.10.21: Seminar 01 about the basics of Julia and how to use it
      * [examples/seminars/S01.jl](examples/seminars/S01.jl)
 
-
 ### Homework
-* 15.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
+* 22.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
      * [examples/homeworks/HW01.jl](examples/homeworks/HW01.jl)
-     * submit `HW01.jl` on Moodle until: Wednesday 27.10.21 @ 1PM 
+     * submit `HW01.jl` on Moodle until: Wednesday 3.11.21 @ 1PM
 
 ## Code
 To download the files, we recommend `git`:
@@ -24,8 +24,15 @@ git clone git@github.com:bionanoimaging/Image-Processing-In-Microscopy.git
 
 ### Julia Installation
 Download the recent version 1.6.3 on the [Julia Website](https://julialang.org/downloads/).
+
+#### Editor
 We recommend using [Visual Studio Code](https://www.julia-vscode.org/), especially install the Julia plugin for VSCode.
+
+#### Documentation 
 Also check out the [documentation](https://docs.julialang.org/en/v1/manual/performance-tips/). It is the best resource for julia because many other pages are outdated.
+
+##### Cheatsheet
+There is a [Cheatsheet](https://juliadocs.github.io/Julia-Cheat-Sheet/) available.
 
 ### Activate Environment
 Open the downloaded source folder with VSCode.
