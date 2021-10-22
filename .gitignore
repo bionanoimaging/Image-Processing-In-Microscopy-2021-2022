@@ -24,3 +24,7 @@ docs/site/
 #Manifest.toml
 
 *solution.jl
+
+
+
+*.vscode
