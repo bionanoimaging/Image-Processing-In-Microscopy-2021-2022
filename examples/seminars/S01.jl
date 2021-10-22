@@ -1,18 +1,24 @@
 ### A Pluto.jl notebook ###
-# v0.16.1
+# v0.16.3
 
 using Markdown
 using InteractiveUtils
 
-# ╔═╡ ef0ea97c-2f40-4d14-9e8d-8e70dcae16e3
+# ╔═╡ ecfe7e0c-2918-11ec-3510-65601e1a6072
 begin
 	using Pkg
-	Pkg.activate("../../.")
+	Pkg.activate("../../")
 	using Revise
 end
 
-# ╔═╡ ecfe7e0c-2918-11ec-3510-65601e1a6072
+# ╔═╡ 77cf9d3e-b113-413a-ace1-acde66e580e2
+md"# Image Processing in Microscopy
 
+* Lecturer: Rainer Heintzmann
+* Teaching assistant: Felix Wechsler (felix.wechsler@uni-jena.de)
+* Forum on moddle
+* Code on GitHub (https://github.com/bionanoimaging/Image-Processing-In-Microscopy, also on Moodle)
+"
 
 # ╔═╡ b88049f8-3064-4d18-b8f7-47e12a3ddc2f
 md"## Julia Lang
@@ -26,7 +32,8 @@ md"## Julia Lang
 * type stable functions
 * because of the type system Julia can compile efficient code
 ### Helpfuls resources
-* However, severalc differences to other languages
+* However, several differences to other languages
+* There is not a `numpy` package since many parts in the language are fast by itself (arrays, Linear Algebra, ...)
 * Consult [performance tips](https://docs.julialang.org/en/v1/manual/performance-tips/)
 * [Noteworthy differences to other language](https://docs.julialang.org/en/v1/manual/noteworthy-differences/)
 * Ecosystem for image processing for microscopy data is small
@@ -78,7 +85,7 @@ md"## Create Functions"
 
 
 # ╔═╡ bdd574e9-0e43-4f75-a703-cdaa823777ab
-md"## Show Images"
+md"## Show Images (TestImages, etc)"
 
 # ╔═╡ c7c8ad71-35f3-43e4-8cb0-cbeeba741d3b
 
@@ -98,11 +105,38 @@ md"## Ploting"
 # ╔═╡ 807a0336-ecff-4b01-8fbf-a31b28a4f8fc
 
 
+# ╔═╡ 675d49fd-d88f-4933-a27e-db294b3f3130
+md"## FFTs"
+
+# ╔═╡ 47d83dca-043b-4099-b4ef-672835412256
+
+
+# ╔═╡ 88d9de0f-faf6-4d75-84ae-25f79ced49e5
+
+
+# ╔═╡ 26c178d8-fd80-4a57-9f3f-d7fb170daf86
+md"## Interactivity with Pluto"
+
+# ╔═╡ 387bba27-f791-4f2b-814b-2c42c19b3523
+# live docs
+
+# ╔═╡ f6b8f22b-1ee7-4332-8bbf-55fc9afb0af4
+
+
+# ╔═╡ 4b49e628-96b7-454b-bed5-ac66eef97a56
+
+
+# ╔═╡ 48658d4d-1bc3-4fd1-ba4d-508174c03442
+
+
+# ╔═╡ 204ac4ea-9359-42ff-ae9a-712a151391b0
+
+
 # ╔═╡ Cell order:
 # ╠═ecfe7e0c-2918-11ec-3510-65601e1a6072
+# ╠═77cf9d3e-b113-413a-ace1-acde66e580e2
 # ╟─b88049f8-3064-4d18-b8f7-47e12a3ddc2f
 # ╠═c16d830f-5a29-46f8-b97b-e66fb60e7a99
-# ╠═ef0ea97c-2f40-4d14-9e8d-8e70dcae16e3
 # ╠═d25c41da-613b-44d4-aded-a9b254720a37
 # ╠═a4890dd2-5f8b-48bd-a237-4b803bdc3e2c
 # ╠═97947b8a-a8e9-423c-8330-37ccf1b50a02
@@ -121,3 +155,12 @@ md"## Ploting"
 # ╠═c7ed12a9-83eb-4059-90cb-65734e1f0da3
 # ╠═cf7d48cc-7461-4afb-8895-7e197184902c
 # ╠═807a0336-ecff-4b01-8fbf-a31b28a4f8fc
+# ╠═675d49fd-d88f-4933-a27e-db294b3f3130
+# ╠═47d83dca-043b-4099-b4ef-672835412256
+# ╠═88d9de0f-faf6-4d75-84ae-25f79ced49e5
+# ╠═26c178d8-fd80-4a57-9f3f-d7fb170daf86
+# ╠═387bba27-f791-4f2b-814b-2c42c19b3523
+# ╠═f6b8f22b-1ee7-4332-8bbf-55fc9afb0af4
+# ╠═4b49e628-96b7-454b-bed5-ac66eef97a56
+# ╠═48658d4d-1bc3-4fd1-ba4d-508174c03442
+# ╠═204ac4ea-9359-42ff-ae9a-712a151391b0

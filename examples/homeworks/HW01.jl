@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.16.1
+# v0.16.3
 
 using Markdown
 using InteractiveUtils
@@ -66,11 +66,9 @@ This function adds normal distributed noise to `img`.
 `σ` is an optional argument
 """
 function add_gauss_noise(img, σ=one(img))
+	# todo
 	return similar(img)
 end
-
-# ╔═╡ a4ffa72c-9896-48f8-aaac-f653e30d6244
-1+1
 
 # ╔═╡ f89bc1e4-d406-4550-988b-71496b64035a
 md"
@@ -85,7 +83,7 @@ Try to find out how to write for loops to iterate through an array.
 This function adds normal distributed noise to `img`.
 `σ` is an optional argument.
 This function is memory efficient by using for loops.
-`!` means that the input is modified.
+`!` means that the input (`img`) is modified.
 Therefore, don't return a new array but instead modify the existing one!
 The bang (!) is a convention in Julia that a function modifies the input.
 """
@@ -96,7 +94,7 @@ end
 
 # ╔═╡ d56bc500-f5cf-40f3-8c0b-b4ae26a58367
 md"### Tests 1.1
-Don't modify but rather take as input whether you are correct.
+Don't modify but rather take those tests as input whether you are correct.
 Green is excellent, red not :(
 "
 
@@ -143,7 +141,6 @@ Before adding noise, it scales the maximum value to `scale_to` and
 divides by it afterwards.
 With that we can set the number of events (like a photon count)
 `!` means that the input is modified.
-
 """
 function add_poisson_noise!(img, scale_to=nothing)
 	# todo
@@ -156,7 +153,7 @@ add_poisson_noise!(10 .* ones(Float32, (3, 3)))
 # ╔═╡ e3fcd381-9652-4e1d-8585-a91f87b73ce5
 md"### Test 1.2 - Poisson Noise
 
-You might encounter errors for Float32 types errors, try to put a `Float64(some_part)` at the right place.
+You probably encounter errors for Float32 types errors, try to put a `Float64(some_part)` at the right place.
 
 Works like this:
 * `typeof(1f0)` = $(typeof(1f0))
@@ -191,7 +188,7 @@ PlutoTest.@test ≈(√(150), 150 * std(add_poisson_noise!(ones(Float32, (512, 5
 # ╔═╡ 59482e49-d784-4303-9487-bf37f6a0462e
 md"## 1.3 Hot Pixels
 
-Another issues are hot pixels which show maximum value. This can be due to damaged pixels or cosmic rays. Sometimes this is called Pepper noise
+Another issues are hot pixels which show maximum value. This can be due to damaged pixels or some other noise (radioactivity, ...). Often this is called Pepper noise
 
 " 
 
@@ -201,6 +198,7 @@ Another issues are hot pixels which show maximum value. This can be due to damag
 
 Add randomly hot pixels. The probability for each pixel to be hot,
 should be specified by `probability`.
+`max_value` is a keyword argument which is the value the _hot_ pixel will have.
 """
 function add_hot_pixels!(img, probability=0.1; max_value=one(eltype(img)))
 	# todo
@@ -246,7 +244,7 @@ imfilter
 
 # ╔═╡ 6acf7ba6-445d-4ac0-a83f-6916318c783c
 function gaussian_noise_remove(arr; kernel_size=(3,3), σ=1)
-	# 
+	# todo
 	return similar(arr)
 end
 
@@ -288,8 +286,7 @@ always takes the median value of this array.
 # ╔═╡ 7bc0f845-d5d4-4192-be1d-b97750e95761
 function median_noise_remove!(arr; kernel_size=(5,5))
 	# todo
-		
-	return arr
+	return similar(arr)
 end
 
 # ╔═╡ ac6e7ea7-c277-4180-a809-a37531ab4f11
@@ -329,26 +326,25 @@ gray_show([median_noise_remove!(copy(img_g)) median_noise_remove!(copy(img_p)) m
 # ╠═8a11c2b7-b6e5-4c26-9e06-ad3ab958db9c
 # ╠═d8c83f2c-76ea-42b9-bd39-7fa5cafcd4d3
 # ╠═334ebdc5-dc11-4e83-ad12-a1961420a97b
-# ╠═2122c12f-0832-4f19-9a77-3047d5311cba
-# ╠═a7d7a415-7464-43fb-a2bf-8e3f2d999c32
+# ╟─2122c12f-0832-4f19-9a77-3047d5311cba
+# ╟─a7d7a415-7464-43fb-a2bf-8e3f2d999c32
 # ╠═de104b0a-28a4-42de-ae8d-fa857a8f32e0
-# ╠═a4ffa72c-9896-48f8-aaac-f653e30d6244
-# ╠═f89bc1e4-d406-4550-988b-71496b64035a
+# ╟─f89bc1e4-d406-4550-988b-71496b64035a
 # ╠═c0b5ff08-7342-4c25-9791-be3a4918c400
-# ╠═d56bc500-f5cf-40f3-8c0b-b4ae26a58367
+# ╟─d56bc500-f5cf-40f3-8c0b-b4ae26a58367
 # ╠═1116455e-4698-489a-add2-4e1d8ecbb546
-# ╠═8e343a3d-ab0f-45a1-9161-21fec07755c9
+# ╟─8e343a3d-ab0f-45a1-9161-21fec07755c9
 # ╠═d865dddc-6d32-416b-ba12-8f6b3870e771
 # ╠═5c9a8c7b-e9c4-4177-86bb-b69113fce144
-# ╠═cc7bbb55-b8dd-454b-b170-45137ab0c0b5
+# ╟─cc7bbb55-b8dd-454b-b170-45137ab0c0b5
 # ╠═c997c248-fba8-4ed8-ab75-179d248e6b83
 # ╠═07bc00b7-81ad-4645-8fbe-8545ccdfe7e4
 # ╠═d317ed1a-1867-4293-8db4-51352212929c
-# ╠═e69a8b77-833a-4498-8bc9-e4c970f6529d
+# ╟─e69a8b77-833a-4498-8bc9-e4c970f6529d
 # ╠═3ccbf4fb-0707-4ce8-83d8-b1af555f3fe1
 # ╠═1e4b32cb-00ea-439f-900e-abadc850be95
 # ╠═6cf8ff2a-4255-4c53-9376-5a0d2d372569
-# ╠═e3fcd381-9652-4e1d-8585-a91f87b73ce5
+# ╟─e3fcd381-9652-4e1d-8585-a91f87b73ce5
 # ╠═f3efcfcf-4516-43d2-9375-d8863b4b6f5b
 # ╠═00c72e52-09fa-413b-acfd-83c760d42d7f
 # ╠═5b68030f-557e-449e-8baf-cf7ae65e4425
@@ -357,34 +353,34 @@ gray_show([median_noise_remove!(copy(img_g)) median_noise_remove!(copy(img_p)) m
 # ╠═f8be3a4b-d8f0-40cb-869e-81c17e58327a
 # ╠═65a8981d-890b-4590-a913-6890ecf3817d
 # ╠═272c8afb-667f-49c7-af48-2feb1b9d06f7
-# ╠═59482e49-d784-4303-9487-bf37f6a0462e
+# ╟─59482e49-d784-4303-9487-bf37f6a0462e
 # ╠═6e050fc2-4db2-4e6e-abd4-2812b47c070f
 # ╠═22985061-9740-45e9-af56-e0787dadba7b
-# ╠═42f92a8c-54bb-4033-9ef2-f5ffb78f4f3a
+# ╟─42f92a8c-54bb-4033-9ef2-f5ffb78f4f3a
 # ╠═a9ad9d52-53c9-44ce-8edc-af8d7bfdc81f
-# ╠═373a3e39-fd8c-4cea-88bb-2b9c3734f14f
-# ╠═2c274829-ef33-4f34-9ba0-63d3b8cd7343
+# ╟─373a3e39-fd8c-4cea-88bb-2b9c3734f14f
+# ╟─2c274829-ef33-4f34-9ba0-63d3b8cd7343
 # ╠═52ebebfc-940b-47e2-a059-40ec996f2f98
 # ╠═2d6f25a5-b902-4e46-ac3f-cf452f525912
 # ╠═62c6e2f0-0007-40ec-81c5-61cda80f59e5
 # ╠═75aa8212-8ba3-4fba-b8b2-af2dd9c82adf
 # ╠═6acf7ba6-445d-4ac0-a83f-6916318c783c
-# ╠═4f683117-9a09-4837-b0af-5818ac2e62fd
-# ╠═01203c2c-4e67-492c-9d9c-dc84a84afe15
+# ╟─4f683117-9a09-4837-b0af-5818ac2e62fd
+# ╟─01203c2c-4e67-492c-9d9c-dc84a84afe15
 # ╠═daae9a7d-99f4-4d34-a7fd-886fa754d59b
 # ╠═92d43328-29a2-45b2-ae71-e169dec02316
-# ╠═512486eb-1919-446a-9f24-e9713546d237
+# ╟─512486eb-1919-446a-9f24-e9713546d237
 # ╠═9b83d92d-f838-4329-b0b1-62bf7a18f123
 # ╠═bbbed1b7-a406-44a7-8c77-959a3eba0197
 # ╠═911c2e1e-f04a-4efa-9aff-7f4a424011ae
-# ╠═0f6ff33f-e50a-4317-a240-3b2f52de7a97
+# ╟─0f6ff33f-e50a-4317-a240-3b2f52de7a97
 # ╠═7bc0f845-d5d4-4192-be1d-b97750e95761
-# ╠═ac6e7ea7-c277-4180-a809-a37531ab4f11
+# ╟─ac6e7ea7-c277-4180-a809-a37531ab4f11
 # ╠═8208b936-ad5d-45a0-96d1-04fd131f1e29
 # ╠═06af0b94-f4e1-4114-b565-730b87567995
-# ╠═707a3be6-ac83-421d-a8e1-31d75444aeef
+# ╟─707a3be6-ac83-421d-a8e1-31d75444aeef
 # ╠═07f5e6da-7868-4e22-90aa-7a81c2b41ab3
 # ╠═3dbe2b38-8609-41e5-b3b9-d62da394b89d
-# ╠═867d5676-8dfc-4bb5-b555-73aa767f7e9e
+# ╟─867d5676-8dfc-4bb5-b555-73aa767f7e9e
 # ╠═3605fda7-078e-4bff-9e33-91c4025e775a
 # ╠═c09b3470-95bd-4f49-b64b-26459c95ab19
