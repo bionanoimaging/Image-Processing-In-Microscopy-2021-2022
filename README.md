@@ -21,6 +21,8 @@ To download the files, we recommend `git`:
 ```
 git clone git@github.com:bionanoimaging/Image-Processing-In-Microscopy.git
 ```
+Usually via a _git pull_ you can update the code. If anything goes wrong which you can't fix, clone it again to a new folder.
+
 
 ### Julia Installation
 Download the recent version 1.6.3 on the [Julia Website](https://julialang.org/downloads/).
