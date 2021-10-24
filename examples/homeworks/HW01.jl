@@ -188,7 +188,7 @@ PlutoTest.@test ≈(√(150), 150 * std(add_poisson_noise!(ones(Float32, (512, 5
 # ╔═╡ 59482e49-d784-4303-9487-bf37f6a0462e
 md"## 1.3 Hot Pixels
 
-Another issues are hot pixels which show maximum value. This can be due to damaged pixels or some other noise (radioactivity, ...). Often this is called Pepper noise
+Another issues are hot pixels which show maximum value. This can be due to damaged pixels or some other noise (radioactivity, ...). Often this is called Salt (because white) noise
 
 " 
 
