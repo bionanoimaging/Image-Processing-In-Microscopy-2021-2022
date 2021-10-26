@@ -1,4 +1,4 @@
-# News
+# News (26.10.2021, 22:38)
 * **`git pull` always the repository**
 * **We had to update the dependencies, therefore activate the main environment and call `julia> ] instantiate`**
 
