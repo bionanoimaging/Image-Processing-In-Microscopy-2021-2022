@@ -1,3 +1,7 @@
+# News
+* **`git pull` always the repository**
+* **We had to update the dependencies, therefore activate the main environment and call `julia> ] instantiate`**
+
 # Image-Processing-In-Microscopy
 Course material for "Image Processing in Microscopy" at the Friedrich Schiller University in Jena in the winter term 2021/22
 
@@ -67,7 +71,7 @@ which should result in similar output. (The `]` switches Julia to the package ma
 (If not, the following steps will obviously fail).
 Try to instantiate the packages with:
 ```julia
-(ImgProcMic) julia> ] add PlutoTest
+(ImgProcMic) julia> ] add PlutoTest # caused some issues some time ago
 
 (ImgProcMic) julia> ] instantiate
 ```
