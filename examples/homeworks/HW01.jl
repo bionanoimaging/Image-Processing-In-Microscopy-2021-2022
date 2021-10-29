@@ -134,12 +134,15 @@ Read the documentation of this package how to generate Poisson Random numbers
 
 # ╔═╡ 1e4b32cb-00ea-439f-900e-abadc850be95
 """
-	add_poisson_noise!(img, scale_to=100)
+	add_poisson_noise!(img, scale_to=nothing)
 
 This function adds poisson distributed noise to `img`.
 Before adding noise, it scales the maximum value to `scale_to` and 
 divides by it afterwards.
 With that we can set the number of events (like a photon count)
+
+If `isnothing(scale_to) == true`, we don't modify/scale the array.
+
 `!` means that the input is modified.
 """
 function add_poisson_noise!(img, scale_to=nothing)
