@@ -20,6 +20,9 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
      * [examples/homeworks/HW01.jl](examples/homeworks/HW01.jl)
      * submit `HW01.jl` on Moodle until: Wednesday 3.11.21 @ 1PM
      * See [here](https://github.com/bionanoimaging/Image-Processing-In-Microscopy/issues/1) for clarification of `add_poisson!
+* 5.11.21: Homework 02 about color maps and sensor calibration
+     * submit `HW02.jl` on Moodle until: Wednesday 19.11.21 @ 1PM 
+
 
 ## Code
 To download the files, we recommend `git`:
