@@ -20,7 +20,7 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
 ### Homework
 * 22.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
      * [examples/homeworks/HW01.jl](examples/homeworks/HW01.jl)
-     * Solution [examples/homeworks/HW01_sol.jl](examples/homeworks/HW01_sol.jl)
+     * Solution [examples/homeworks/HW01_solution.jl](examples/homeworks/HW01_solution.jl)
      * submit `HW01.jl` on Moodle until: Wednesday 3.11.21 @ 1PM
      * See [here](https://github.com/bionanoimaging/Image-Processing-In-Microscopy/issues/1) for clarification of `add_poisson!
      * 
