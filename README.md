@@ -13,14 +13,19 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
 
 ### Seminars
 * 22.10.21: Seminar 01 about the basics of Julia and how to use it
-     * [examples/seminars/S01.jl](examples/seminars/S01.jl)
+     * [examples/seminars/S01_part1.jl](examples/seminars/S01_part1.jl)
+* 29.10.21: Q&A
+     * [examples/seminars/S01_part2.jl](examples/seminars/S01_part2.jl)
 
 ### Homework
 * 22.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
      * [examples/homeworks/HW01.jl](examples/homeworks/HW01.jl)
+     * Solution [examples/homeworks/HW01_sol.jl](examples/homeworks/HW01_sol.jl)
      * submit `HW01.jl` on Moodle until: Wednesday 3.11.21 @ 1PM
      * See [here](https://github.com/bionanoimaging/Image-Processing-In-Microscopy/issues/1) for clarification of `add_poisson!
+     * 
 * 5.11.21: Homework 02 about color maps and sensor calibration
+     * [examples/homeworks/HW02.jl](examples/homeworks/HW02.jl) 
      * submit `HW02.jl` on Moodle until: Wednesday 19.11.21 @ 1PM 
 
 
