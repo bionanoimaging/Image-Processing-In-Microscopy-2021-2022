@@ -540,7 +540,7 @@ begin
 end
 
 # ╔═╡ 0adf654e-f238-432c-ace4-50ad5d896870
-md"The final solution is σ = $(round(fit.param[1], sigdigits=4)) ± $(round(stderror(fit)[1], sigdigits=2))"
+md"The final solution is gain = $(round(fit.param[1], sigdigits=4)) ± $(round(stderror(fit)[1], sigdigits=2))"
 
 # ╔═╡ Cell order:
 # ╠═1f6d20c6-2a06-11ec-30b2-f5462ac0ec76
