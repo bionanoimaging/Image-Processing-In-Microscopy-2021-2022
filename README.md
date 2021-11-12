@@ -1,4 +1,3 @@
-# News (03.11.2021, 20:43)
 * **`git pull` always the repository**
 * **We had to update the dependencies, therefore activate the main environment and call `julia> ] instantiate`**
 
@@ -16,6 +15,8 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
      * [examples/seminars/S01_part1.jl](examples/seminars/S01_part1.jl)
 * 29.10.21: Q&A
      * [examples/seminars/S01_part2.jl](examples/seminars/S01_part2.jl)
+* 12.11.21: Q&A
+     * [examples/seminars/S02.jl](examples/seminars/S02.jl)
 
 ### Homework
 * 22.10.21: Homework 01 about adding and removing Noise (more will follow later in this course)
