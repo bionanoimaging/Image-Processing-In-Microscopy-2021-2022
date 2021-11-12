@@ -13,9 +13,9 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
 ### Seminars
 * 22.10.21: Seminar 01 about the basics of Julia and how to use it
      * [examples/seminars/S01_part1.jl](examples/seminars/S01_part1.jl)
-* 29.10.21: Q&A
+* 29.10.21: Q&A HW01
      * [examples/seminars/S01_part2.jl](examples/seminars/S01_part2.jl)
-* 12.11.21: Q&A
+* 12.11.21: Q&A HW02
      * [examples/seminars/S02.jl](examples/seminars/S02.jl)
 
 ### Homework
