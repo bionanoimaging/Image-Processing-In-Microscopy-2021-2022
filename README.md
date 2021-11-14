@@ -27,7 +27,7 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
      * submit `HW03.jl` on Moodle until: Wednesday 1.12.21 @ 1PM 
 </details>
 
-### Seminars
+### Q&A Seminars
 <details>
     <summary>Details</summary>
     
