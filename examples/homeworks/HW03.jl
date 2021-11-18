@@ -94,13 +94,13 @@ Use the function `simulate_bad_microscope` to obtain a measured flat field and m
 "
 
 # ╔═╡ 910cb7fa-b1fc-4106-acc4-3bf56edfb83d
-flat_field = simulate_bad_microscope(ones(Float32, (512, 512))); # TODO
+flat_field = similar(img); # TODO
 
 # ╔═╡ cbebb311-c521-4fa6-a909-1a4df8da4d2d
 gray_show(flat_field)
 
 # ╔═╡ 8bb737cb-2d59-49ba-9b89-afef6ca7bbf8
-dark_field = simulate_bad_microscope(zeros(Float32, (512, 512))); # TODO
+dark_field = similar(img); # TODO
 
 # ╔═╡ 52bc8b3d-542e-4a35-b38c-35840f4075d4
 gray_show(dark_field)
@@ -142,7 +142,7 @@ Try to determine experimentally (via the slider) which is the correct value for 
 
 Afterwards, calculate the correct sampling in the variable $N$!
 
-Don't state the pure number but rather a short equation which Julia calculates.
+Don't state the pure number but rather a short equation which Julia calculates (something like `1 * 2 * 3`).
 Do you see a difference between your expected and your calculated value?
 "
 
