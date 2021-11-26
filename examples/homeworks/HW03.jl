@@ -133,7 +133,7 @@ md"### 1.1 Test"
 PlutoTest.@test img_fixed ≈ img
 
 # ╔═╡ 0a957f4a-a975-4087-b458-3236940eda43
-PlutoTest.@test img ≈ correct_image(img_dirty, zero.(img), one.(img))
+PlutoTest.@test img ≈ correct_image(img, zero.(img), one.(img))
 
 # ╔═╡ af9866f4-2b03-4dc4-9f8a-e02ae46e2f9c
 md"# 2 Sampling
