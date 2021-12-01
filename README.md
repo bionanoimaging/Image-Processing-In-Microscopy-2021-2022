@@ -26,6 +26,7 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
      * submit `HW02.jl` on Moodle until: Wednesday 19.11.21 @ 1PM 
 * 19.11.21: Homework 03 about Fourier transforms, flat field correction and sampling 
      * [examples/homeworks/HW03.jl](examples/homeworks/HW03.jl) 
+     * Solution [examples/homeworks/HW03_solution.jl](examples/homeworks/HW03_solution.jl)
      * submit `HW03.jl` on Moodle until: Wednesday 1.12.21 @ 1PM 
 * 03.12.21: Homework 04 about FFT, Convolution, Wiener Filter and optimization
      * [examples/homeworks/HW04.jl](examples/homeworks/HW04.jl) 
