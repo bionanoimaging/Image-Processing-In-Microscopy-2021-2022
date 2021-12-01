@@ -1,3 +1,4 @@
+* (1.12.2021, 14:41)
 * **`git pull` always the repository**
 * **We had to update the dependencies, therefore activate the main environment and call `julia> ] instantiate`**
 
@@ -26,6 +27,9 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
 * 19.11.21: Homework 03 about Fourier transforms, flat field correction and sampling 
      * [examples/homeworks/HW03.jl](examples/homeworks/HW03.jl) 
      * submit `HW03.jl` on Moodle until: Wednesday 1.12.21 @ 1PM 
+* 03.12.21: Homework 04 about FFT, Convolution, Wiener Filter and optimization
+     * [examples/homeworks/HW04.jl](examples/homeworks/HW04.jl) 
+     * submit `HW04.jl` on Moodle until: Wednesday 15.12.21 @ 1PM 
 </details>
 
 ### Q&A Seminars
