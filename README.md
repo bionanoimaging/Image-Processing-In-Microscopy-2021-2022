@@ -30,7 +30,12 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
      * submit `HW03.jl` on Moodle until: Wednesday 1.12.21 @ 1PM 
 * 03.12.21: Homework 04 about FFT, Convolution, Wiener Filter and optimization
      * [examples/homeworks/HW04.jl](examples/homeworks/HW04.jl) 
+     * Solution [examples/homeworks/HW04_solution.jl](examples/homeworks/HW04_solution.jl)
      * submit `HW04.jl` on Moodle until: Wednesday 15.12.21 @ 1PM 
+* 07.12.21: Homework 05 about Lucy Richardson and more Optimization 
+     * [examples/homeworks/HW05.jl](examples/homeworks/HW05.jl) 
+     * submit `HW05.jl` on Moodle until: Wednesday 12.01.22 @ 1PM 
+
 </details>
 
 ### Q&A Seminars
