@@ -735,7 +735,7 @@ PlutoTest.@test loss(imgs, μ_optimized) < loss(imgs, μ_optim)
 # ╠═bfd35c9f-1449-4d86-bb50-9bbbd6ea2c30
 # ╠═c1795dd9-f8a5-472d-bd82-7871e8603534
 # ╟─c5436e99-513b-4c51-b3ad-f82318304a3e
-# ╟─b393a0f5-af03-4ded-8e22-886022f5da30
+# ╠═b393a0f5-af03-4ded-8e22-886022f5da30
 # ╠═c81c5eaa-0e0f-4730-9148-ec0e7b63cdd4
 # ╟─32f6d83a-d5db-4a21-b2c4-d8876de38c46
 # ╠═f7d7cf86-ece9-406b-af78-f86177a767c4
