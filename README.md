@@ -1,4 +1,4 @@
-* (15.12.2021, 20:07)
+* (17.12.2021, 8:14)
 * **`git pull` always the repository**
 * **We had to update the dependencies, therefore activate the main environment and call `julia> ] instantiate`**
 * **Download the recent version 1.7.0 on the [Julia Website](https://julialang.org/downloads/).**
