@@ -1,7 +1,7 @@
 * (17.12.2021, 8:14)
 * **`git pull` always the repository**
 * **We had to update the dependencies, therefore activate the main environment and call `julia> ] instantiate`**
-* **Download the recent version 1.7.0 on the [Julia Website](https://julialang.org/downloads/).**
+* **Download the recent version 1.7.1 on the [Julia Website](https://julialang.org/downloads/).**
 
 # Image-Processing-In-Microscopy
 Course material for "Image Processing in Microscopy" at the Friedrich Schiller University in Jena in the winter term 2021/22
