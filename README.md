@@ -35,6 +35,7 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
      * submit `HW04.jl` on Moodle until: Wednesday 15.12.21 @ 1PM 
 * 07.12.21: Homework 05 about Lucy Richardson and more Optimization 
      * [examples/homeworks/HW05.jl](examples/homeworks/HW05.jl) 
+     * Solution [examples/homeworks/HW05_solution.jl](examples/homeworks/HW05_solution.jl)
      * submit `HW05.jl` on Moodle until: Wednesday 12.01.22 @ 1PM 
 * 14.01.22: Homework 06 about Structured Illumination Microscopy
      * [examples/homeworks/HW06.jl](examples/homeworks/HW06.jl) 
