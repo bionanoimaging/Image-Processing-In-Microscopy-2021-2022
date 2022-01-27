@@ -70,7 +70,7 @@ Usually via a _git pull_ you can update the code. If anything goes wrong which y
 
 
 ### Julia Installation
-Download the recent version 1.7.0 on the [Julia Website](https://julialang.org/downloads/).
+Download the recent version 1.7.1 on the [Julia Website](https://julialang.org/downloads/).
 
 #### Editor
 We recommend using [Visual Studio Code](https://www.julia-vscode.org/), especially install the Julia and git plugin for VSCode.
