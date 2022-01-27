@@ -39,7 +39,12 @@ Officially, over [Friedolin](https://friedolin.uni-jena.de/qisserver/rds?state=v
      * submit `HW05.jl` on Moodle until: Wednesday 12.01.22 @ 1PM 
 * 14.01.22: Homework 06 about Structured Illumination Microscopy
      * [examples/homeworks/HW06.jl](examples/homeworks/HW06.jl) 
+     * Solution [examples/homeworks/HW06_solution.jl](examples/homeworks/HW06_solution.jl)
      * submit `HW06.jl` on Moodle until: Wednesday 26.01.22 @ 1PM
+* 28.01.22: Homework 06 about real space convolution, correlation and jinc PSF simulation
+     * [examples/homeworks/HW07.jl](examples/homeworks/HW07.jl) 
+     * submit `HW07.jl` on Moodle until: Wednesday 09.02.22 @ 1PM
+
 </details>
 
 ### Q&A Seminars
