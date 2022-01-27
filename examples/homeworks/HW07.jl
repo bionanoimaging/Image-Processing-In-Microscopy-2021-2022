@@ -458,7 +458,7 @@ end
 # todo
 # What is the correct scaling such that both methods return a same scaled PSF
 # as a hint, look at the cell below
-scale = 10/50 # fix value
+scale = 1 # fix value
 
 # ╔═╡ 170b5e91-dfaa-4f13-ac45-01b875ba02d8
 # hint, look at this output
